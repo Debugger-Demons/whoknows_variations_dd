@@ -1,0 +1,8 @@
+digraph dependencies {
+    "Flask" -> "click"
+    "Flask" -> "itsdangerous"
+    "Flask" -> "Jinja2"
+    "Flask" -> "Werkzeug"
+    "Jinja2" -> "MarkupSafe"
+    "pipdeptree" -> "pip"
+}
