@@ -1,8 +1,6 @@
 #Ignore db
 whoknows.db
 
-#devopsnotes
-devopsnotes.txt
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
