@@ -116,6 +116,24 @@ The andon cord means everyone swarms a problem, and it gives a good yield when p
 
 If a major incident occurs you can make a blameless postmortem.
 
+## Continous Deployment
+
+Continous delivery = Vi pakker vores produkt ind og gøre det til en artifakt
+Continous Deployement = Vi pusher vores artifakt i skyen.
+
+We have to achieve full continous deployement.
+
+Instead of having our github repository in the server we can make it as a image
+(Read the slides) and make a docker image which you push to docker hub. Create a workflow that will run each time you push and a workflow will run which also triggers in the server that gets the newest version of the codebase.
+Create a workflow
+
+- Have your image loaded up in docker hub everytime you update your code
+
+#### Quality gates
+
+You can have jobs on your workflows that tests the quality of your gates.
+You can use the needs keywords to ensure that job A and job B is successfull before it can proceed.
+
 ## GitOps
 
 GitOps is a way of implementing Continuous Deployment for cloud native applications.
