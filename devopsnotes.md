@@ -275,3 +275,77 @@ This list ranks the safest and most appropriate ways to access repository data i
 ---
 
 > 🔐 Always prefer minimal, scoped credentials to reduce risk. Use `GITHUB_TOKEN` when possible, and avoid using personal credentials.
+
+## During class
+
+### SAST vs DAST
+
+SAST (static application security testing):
+
+white-box testing
+
+DAST (dynamic application security testing):
+
+black-box testing
+
+### Backups
+
+Find a way to backup your data. It is not a task but a good idea to think about.
+
+### What to do
+
+Read about iptables and ufw
+
+iptables is a powerful, command-line-based firewall utility in Linux, used for controlling network traffic coming into and going out of a system
+
+### Tutorial for security testing
+
+Tjek slides.
+
+Man kan køre workflows i SAST (Bandit og Safety) for at tjekke vulnebalities i Python
+
+DAST OWASP ZAP den kører programmet og laver vulnebality for applikaitonen mens den kører.
+
+### Continous Testing
+
+### playwright
+
+Is a tool to test how your frontend works. You can save your interactions with the frontend in the future and test whether it works or not. It is really good and must be implemented in our project.
+
+# DevOps Uge 9
+
+# DevOps Uge 10
+
+Man skal ikke være bange for at ødelægge noget. Man skal kunne prøve på det for at se om hvad der kunne optimeres.
+
+- Det gjorde vi ikke i starten i vores gruppe, men vi skulle dog nok have gjort det.
+
+Læs op på Crawler. Jeg har oprettet en crawler fil i 11_crawler folder.
+
+Der er forskel på logging, monitoring, tracing og profiling.
+
+### Tracing
+
+Tracing - Er end-to-end journey.
+Det står i slidesne.
+
+### Profiling
+
+Det er for eksempel at stress teste sit system.
+
+## Monitoring
+
+Vi observer systemet. Ting som CPU, memory, errors.
+
+### Logging
+
+Man kan for eksempel logge events, for eksempel en person udfører en specifik event.
+
+### ------------------
+
+Hvorfor ikke have logging i samme folder ?
+
+Du kan skille dem ad. Det er ikke noget alvorligt men hvad nu hvis du ender med at slette det ?
+Derfor er det nok en god ide at skille dem ad.
+
+"Monitoring is for asking questions" Det vil blive stilt til eksamen med hvorfor vi monitor.
