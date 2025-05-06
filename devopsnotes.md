@@ -349,3 +349,18 @@ Du kan skille dem ad. Det er ikke noget alvorligt men hvad nu hvis du ender med 
 Derfor er det nok en god ide at skille dem ad.
 
 "Monitoring is for asking questions" Det vil blive stilt til eksamen med hvorfor vi monitor.
+
+God ide at bruge grafana eller prometheus, da det er den som Anders har sat op.
+Vi skal indsætte vores dashboard i monotroing i vores repository.py
+Anders has sat vores username i Teams.
+
+monitoring skal være på en anden server, fordi hvis repository server går ned så vil monitor server stadig virke.
+
+# DevOps Uge 13
+
+Vi skal gøre vores dashboard pænere.
+
+Husk devops principperne
+Husk devops handbook
+
+Hvilke principper har vi overholdt, hvilke har vi ikke overholdt
