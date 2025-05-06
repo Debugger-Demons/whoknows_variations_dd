@@ -1,3 +1,20 @@
+# Eksamen
+
+## DevOps Handbook
+
+DevOps is derived from Three Ways
+
+- High-reliability organizations (which focus on consistent, error-free performance),
+
+- High-trust management models, and
+
+- Other well-established organizational patterns.
+
+The Manufacturing value stream which is one of the aspects DevOps is derived from means focuses
+on creating a smooth and even flow of work where techniques are used to create smaller batch sizes and reducing WIP.
+
+The technology value stream is the part where the team convert the business hypothotesis into a technology enabled services for the customers of the business.
+
 ## Weekly principles in DevOps
 
 ### Week 1
